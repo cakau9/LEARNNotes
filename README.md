@@ -1,1 +1,1 @@
-All hand written notes for LEARN Academy
+All handwritten notes typed up for LEARN Academy
