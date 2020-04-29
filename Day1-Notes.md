@@ -68,6 +68,7 @@ Most Common Git Commands
   - git config user.name  - logs/sets the name associated with commits
   - git config user.email - logs/sets email associated with commits
   - git remote - logs/set/removes the remote address for a repo
+- Useful tip, a period after git add . means to add all the files from that repository.  Can be replaced by an actual file name to help with confusion.
 
   Atom - text editor
    - Developed by GitHub
@@ -77,4 +78,4 @@ Most Common Git Commands
     - command l - selects the current line, holding 'command' and hitting l will add subsequent lines to the selected block.
     - command d - will find every instance of a word
     - shift command d - duplicates the line
-    - command control up/down arrow - moves the line of code up or down 
+    - command control up/down arrow - moves the line of code up or down
