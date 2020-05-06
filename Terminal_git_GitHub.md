@@ -42,7 +42,7 @@ Tech Stack
 MVC
  - Model - PostgreSQL, persistence storage, database
  - View - HTML, CSS, JavaScript, React - "Frontend" the aspet of code that you see click, and navigate about 20% of the code
-- Controller - Ruby, Ruby on Rails- "Backend" the logic, functions, algorithms "under the hood
+- Controller - Ruby, Ruby on Rails- "Backend" the logic, functions, algorithms "under the hood"
 
 git and GitHub
 They are two different things:
