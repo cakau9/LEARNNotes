@@ -65,7 +65,7 @@ Basic Data Types That are Primitive - can't be broken down any further.
     Type Coercion - happens because JavaScript is loosely typed.  Combining data from different types can cause JavaScript to process information in strange and unpredictable ways when it is trying to be helpful an dmake sense of the operators.  Best to generally avoid. 
         ex. "2" + 2 -> 22       !0 -> true      !3 -> false     true * 9 -> 9   false * 9 -> 0
 
-    Variables - used to store information and must be declared and assigned a value using an equals sign.  They are dynamic and can be manipulated.  
+Variables - used to store information and must be declared and assigned a value using an equals sign.  They are dynamic and can be manipulated.  
         ex. variable declared
                 var a -> undefined        var a + 5-> Nan (not a number)
             variable declared and assigned
@@ -83,45 +83,44 @@ Basic Data Types That are Primitive - can't be broken down any further.
                 b -> "world"
                 c -> "hellow world"
         
-        There are three different types of variables:
-            1) var - globally scoped or local scoped and be re-declared and reassigned
-                ex. var greeter = "hey hi"
-                
-                    function new function () {
-                        var hello = "hello"
-                    }
-                    - var greeter is globally scoped because it exists outside the function, while var hello is function or locally scoped
+    There are three different types of variables:
+        1) var - globally scoped or local scoped and be re-declared and reassigned
+            ex. var greeter = "hey hi"
+                function new function () {
+                    var hello = "hello"
+                }
+            - var greeter is globally scoped because it exists outside the function, while var hello is function or locally scoped
 
-                ex. var tester = "hey"
-                    function new function (){
-                        var hello = "hello"
-                    }
-                    console.log(hello) -> error: hello is not defined
-                    - error occurs because var hello is not avaiable outside of the function.
+            ex. var tester = "hey"
+                function new function (){
+                    var hello = "hello"
+                }
+                console.log(hello) -> error: hello is not defined
+            - error occurs because var hello is not avaiable outside of the function.
                 
-                ex. Problem with using var
-                    var greeter = "hey hi"
-                    var times = 4
-                    if (times > 3) {
-                        var greeter = "say hello instead"
-                    }
-                    console.log (greeter) -> "say hello instead"
-                    - since it is true, it returns the greeter that is inside the block.  We didn't realize greeter was defined before, but it reassgined the variable since we used var.  To prevent this, use let or const.
+            ex. Problem with using var
+                var greeter = "hey hi"
+                var times = 4
+                if (times > 3) {
+                    var greeter = "say hello instead"
+                }
+                console.log (greeter) -> "say hello instead"
+            - since it is true, it returns the greeter that is inside the block.  We didn't realize greeter was defined before, but it reassgined the variable since we used var in block of code.  To prevent this, use let or const.
                     
-            2) let - block scoped or local scoped and preferred for block due to isssue with var.  A block is a chunk of code bounded by { }. 
-                ex. let greeting = "say hi"
-                    let times = 4
-                        if (times > 3) {
-                                let hello = "say hello instead"
-                                console.log(hello) -> "say hello instead"
-                        }
-                        console.log(hello) -> error: hello is not defined
-                    - console logging outside of the function returns not defined because let is local scoped so this console.log out side of the curly braces can not get to let hello.  When console logging inside of the curly braces, it will return let hello without any issues.
+        2) let - block scoped or local scoped and preferred for block due to isssue with var.  A block is a chunk of code bounded by { }. 
+            ex. let greeting = "say hi"
+                let times = 4
+                
+                if (times > 3) {
+                    let hello = "say hello instead"
+                    console.log(hello) -> "say hello instead"
+                }
+                console.log(hello) -> error: hello is not defined
+            - console logging outside of the function returns not defined because let is local scoped so this console.log out side of the curly braces can not get to let hello.  When console logging inside of the curly braces, it will return let hello without any issues.
 
-            3) const - block scoped and cannobe be updated or redeclared
+        3) const - block scoped and cannobe be updated or redeclared.  Protects variables from being reassigned.
             
 
-            3) const- protects variable from being reassigned
 
 
 
