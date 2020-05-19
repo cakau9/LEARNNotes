@@ -3,7 +3,7 @@ JavaScript is a versatile and powerful scripting language used to make webpages 
 Vocab
 - data types - used in JavaScript, including 6 primitives that help give JavaScript info.
 - concatenation - combines a series of strings into one string.
-- type coercion - JavaScript gives us strange and unpredictable behavior when combining different data types.
+- type coercion - JavaScript gives us strange and unpredictable behavior when combining different data  types.
 - floats - whole numbers written as decimals
 - modulo operator - represented with a %, gives us the remainder of division problems.
 - bang operator - represented with a ! , negates value, used to declare something isn't there.

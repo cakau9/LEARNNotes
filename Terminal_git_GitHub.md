@@ -53,9 +53,13 @@ They are two different things:
       - FORKING- Copying other developers code
       - Static pages like websites
       - Project management
+  - GitHub - built using Ruby on Rails, largest host of code in the world.
+  - Use git on command line, not the GUI version.
+  - ReadMe - allows people to understand the project.  Normally written as a .md file (markdown)
 
 Most Common Git Commands
 - git add (ex. git add . ) - used to 'stage' or 'track' changes
+  - Useful tip, a period after git add . means to add all the files from that repository.  Can be replaced by an actual file name to help with confusion.
 - git commit -m "comments here" (ex. git commit -m "first commit")- used to save changes on staged files
 - git pull (ex git pull origin master)- get remote changes to local copy
 - git push (ex. git push origin master) - get local changes to remote copy
@@ -68,7 +72,6 @@ Most Common Git Commands
   - git config user.name  - logs/sets the name associated with commits
   - git config user.email - logs/sets email associated with commits
   - git remote - logs/set/removes the remote address for a repo
-- Useful tip, a period after git add . means to add all the files from that repository.  Can be replaced by an actual file name to help with confusion.
 
   Atom - text editor
    - Developed by GitHub
