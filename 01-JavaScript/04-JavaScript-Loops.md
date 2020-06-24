@@ -4,7 +4,7 @@ Loops must define a starting location (ex. let i=0;), a condition to be met that
 
 Vocab
 - for loop - most common type of loop and loops through a block of code a number of times
-- let - 
+- let - varabile that is block scoped or local scoped and preferred for block due to isssue with var. 
 - i (index) - hidden value given to each value in the array.  Always starts at 0.
 - iteration - goes through an array and does something to each element.
 - scope - refers to where a variable is accessible or visible.  Two main scopes are local and global.

@@ -1,5 +1,5 @@
 Conditional Statements are decision structures, decision trees, or if/else statements and are fundamental to computer programming.
-    - They are interable- meaning, it goes step by step until a condition is met, so goes from one thing to the next.
+    - They are iterable- meaning, it goes step by step until a condition is met, so goes from one thing to the next.
 
 Vocab
 - if - a must in coditionals.  If it is true, the program will continue to run.  If not true, nothing will happen.

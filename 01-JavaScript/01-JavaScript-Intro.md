@@ -118,7 +118,7 @@ Variables - used to store information and must be declared and assigned a value 
                 console.log(hello) -> error: hello is not defined
             - console logging outside of the function returns not defined because let is local scoped so this console.log out side of the curly braces can not get to let hello.  When console logging inside of the curly braces, it will return let hello without any issues.
 
-        3) const - block scoped and cannobe be updated or redeclared.  Protects variables from being reassigned.
+        3) const - block scoped and cannot be updated or redeclared.  Protects variables from being reassigned.
             
 
 

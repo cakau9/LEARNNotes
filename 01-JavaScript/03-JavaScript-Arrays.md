@@ -9,11 +9,11 @@ Anatomy of an array:
             index 0 = 1, index 1 = 2, index 2 = 3, index 3 = 4, index 4 = 5 
     *Note that numbers in an array don't need quotes around them, but strings do need quotes around them.
 Vocab
-- arrays - are a data type that is not primitive and are variables that share collections of data in an index list.  The elemends can be accessed by their value or by their location within the array.
+- arrays - are a data type that is not primitive and are variables that share collections of data in an index list.  The elements can be accessed by their value or by their location within the array.
 - index - hidden number that exists behind each value.  Always starts at 0.
 - value - value is the content in the array, so the number or strings that are inside the square brackets.
 - mutators/setter methods - methods that permanently change the original array.
-- accessor/getter methods - methods that access an array and do not change th eoriginal array
+- accessor/getter methods - methods that access an array and do not change the original array
 - destructuring - special way of assigning variables in JS.  Allows you to take something like an array or object and unpack their values into individual variables.
 
 Accessing Elements - we can use our variable and an index number in square brackets to pull out value sin an array.
