@@ -17,7 +17,7 @@ String Interpolation -> most useful and common implementation of template litera
     - Important pieces
         - Back Tick Characters -> used to signal the start and end of a template string
         - A dollar sign ($) indicates the start of an embedded expression
-        - The curly braces ({}) indicate the beginning and end of the javascript expression.  In this case, frui tis the expression we're asking JavaScript to evaluate.
+        - The curly braces ({}) indicate the beginning and end of the javascript expression.  In this case, fruit is the expression we're asking JavaScript to evaluate.
 
 A more complex example with pre ES6 at beginning
     var customer = {
