@@ -18,6 +18,5 @@ render() method -> the return is in it.  Renders are a must in Class Components
             return ()
     }
 
-This is a test
 
     
