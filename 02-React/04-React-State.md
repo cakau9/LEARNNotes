@@ -1,7 +1,7 @@
 React state is an object managed within a component.  Methods in the program can update the value of the state object and therefore change what appears in the browser.
 
 Vocab
-- constructor - a special method that is used to initialize a newly created object and is called just after the memory is allocated for the object.
+- constructor - a special method that is used to initialize a newly created object and is called just after the memory is allocated for the object.  A lifecycle method.
 - dumb/pure/display component - component that doesn't hold state
 - smart/impure/logic component - component that holds state
 - state - an object that stores a component's dynamic data and determines how the component renders and behaves
